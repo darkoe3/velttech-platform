@@ -108,6 +108,8 @@ chmod 755 media/certificates
 ```bash
 # Ensure CORS is configured in backend settings
 # Check: backend/velttech/settings.py CORS_ALLOWED_ORIGINS
+# Production Academy frontend origin:
+# https://academy.velttech.org
 # Restart backend server
 python manage.py runserver
 ```
